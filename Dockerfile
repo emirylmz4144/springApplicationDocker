@@ -1,4 +1,4 @@
 FROM openjdk:21-jdk
-EXPOSE 8080
+EXPOSE 80
 ADD target/springApp-docker.jar springApp-docker.jar
 ENTRYPOINT ["java","-jar","/springApp-docker.jar"]
