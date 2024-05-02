@@ -15,6 +15,6 @@ public class SpringApplicationDockerApplication {
 
 	@GetMapping("/")
 	public String home() {
-		return "Efendimiz";
+		return "Efendimiz Yollarda";
 	}
 }
