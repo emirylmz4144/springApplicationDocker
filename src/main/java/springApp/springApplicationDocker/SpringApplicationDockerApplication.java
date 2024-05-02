@@ -15,6 +15,6 @@ public class SpringApplicationDockerApplication {
 
 	@GetMapping("/")
 	public String home() {
-		return "Efendimiz Yollarda mı acaba?";
+		return "Efendimiz Yollarda mı acaba? Diye sordu uşak.";
 	}
 }
